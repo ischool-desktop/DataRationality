@@ -41,7 +41,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\..\ischool_Junior with FISCA\ischool\bin\Debug\</OutputPath>
+    <OutputPath>bin\debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -57,54 +57,64 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DataRationality">
-      <HintPath>..\..\ischool_Junior with FISCA\FiscaRuntime\modules\JHCore\DataRationality.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="FISCA, Version=1.9.1.9, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="DataRationality, Version=1.0.0.6, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\ischool_Junior with FISCA\FiscaRuntime\kernel\FISCA.dll</HintPath>
+      <HintPath>Library\DataRationality.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="FISCA.Data">
-      <HintPath>..\..\ischool_Junior with FISCA\FiscaRuntime\kernel\FISCA.Data.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="FISCA.LogAgent">
-      <HintPath>..\..\ischool_Junior with FISCA\FiscaRuntime\kernel\FISCA.LogAgent.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="FISCA.Presentation, Version=1.0.2.9, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="FISCA, Version=2.5.0.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\ischool_Junior with FISCA\FiscaRuntime\kernel\FISCA.Presentation.dll</HintPath>
+      <HintPath>Library\FISCA.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="FISCA.UDT">
-      <HintPath>..\..\ischool_Junior with FISCA\FiscaRuntime\kernel\FISCA.UDT.dll</HintPath>
+    <Reference Include="FISCA.Data, Version=1.0.0.3, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Library\FISCA.Data.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="JHSchool.Data">
-      <HintPath>..\..\ischool_Junior with FISCA\FiscaRuntime\modules\JHCore\JHSchool.Data.dll</HintPath>
+    <Reference Include="FISCA.LogAgent, Version=1.0.0.6, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Library\FISCA.LogAgent.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="JHSchool.Logic">
-      <HintPath>..\..\ischool_Junior with FISCA\FiscaRuntime\modules\JHCore\JHSchool.Logic.dll</HintPath>
+    <Reference Include="FISCA.Presentation, Version=1.1.0.19, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Library\FISCA.Presentation.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="K12.Data">
-      <HintPath>..\..\ischool_Junior with FISCA\FiscaRuntime\modules\JHCore\K12.Data.dll</HintPath>
+    <Reference Include="FISCA.UDT, Version=1.0.2.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Library\FISCA.UDT.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="K12.Logic">
-      <HintPath>..\..\ischool_Junior with FISCA\FiscaRuntime\modules\JHCore\K12.Logic.dll</HintPath>
+    <Reference Include="JHSchool.Data, Version=2.0.0.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Library\JHSchool.Data.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="K12.Presentation">
-      <HintPath>..\..\ischool_Junior with FISCA\FiscaRuntime\modules\JHCore\K12.Presentation.dll</HintPath>
+    <Reference Include="JHSchool.Logic, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Library\JHSchool.Logic.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="SmartSchool.ErrorReporting">
-      <HintPath>..\..\ischool_Junior with FISCA\FiscaRuntime\modules\JHCore\SmartSchool.ErrorReporting.dll</HintPath>
+    <Reference Include="K12.Data, Version=2.0.0.5, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Library\K12.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="K12.Logic, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Library\K12.Logic.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="K12.Presentation, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Library\K12.Presentation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SmartSchool.ErrorReporting, Version=1.0.2.13, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Library\SmartSchool.ErrorReporting.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
@@ -139,6 +149,7 @@
     <Compile Include="Permrec\ExportStudentStatusRAT.cs" />
     <Compile Include="Evaluation\FlexibleDomainRAT.cs" />
     <Compile Include="Behavior\GradeYear1StudentAttendanceSummaryRAT.cs" />
+    <Compile Include="Permrec\StudentNoUpdateCode1or3RAT.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Behavior\DisciplineSummaryV2RAT.cs" />
@@ -163,6 +174,38 @@
       <ProductName>Windows Installer 3.1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Library\DataRationality.dll" />
+    <Content Include="Library\DataRationality.pdb" />
+    <Content Include="Library\FISCA.Data.dll" />
+    <Content Include="Library\FISCA.Data.pdb" />
+    <Content Include="Library\FISCA.Data.xml" />
+    <Content Include="Library\FISCA.dll" />
+    <Content Include="Library\FISCA.LogAgent.dll" />
+    <Content Include="Library\FISCA.LogAgent.pdb" />
+    <Content Include="Library\FISCA.LogAgent.xml" />
+    <Content Include="Library\FISCA.pdb" />
+    <Content Include="Library\FISCA.Presentation.dll" />
+    <Content Include="Library\FISCA.Presentation.pdb" />
+    <Content Include="Library\FISCA.Presentation.xml" />
+    <Content Include="Library\FISCA.UDT.dll" />
+    <Content Include="Library\FISCA.UDT.pdb" />
+    <Content Include="Library\FISCA.UDT.xml" />
+    <Content Include="Library\JHSchool.Data.dll" />
+    <Content Include="Library\JHSchool.Data.pdb" />
+    <Content Include="Library\JHSchool.Data.xml" />
+    <Content Include="Library\JHSchool.Logic.dll" />
+    <Content Include="Library\JHSchool.Logic.pdb" />
+    <Content Include="Library\K12.Data.dll" />
+    <Content Include="Library\K12.Data.pdb" />
+    <Content Include="Library\K12.Data.xml" />
+    <Content Include="Library\K12.Logic.dll" />
+    <Content Include="Library\K12.Logic.pdb" />
+    <Content Include="Library\K12.Presentation.dll" />
+    <Content Include="Library\K12.Presentation.pdb" />
+    <Content Include="Library\SmartSchool.ErrorReporting.dll" />
+    <Content Include="Library\SmartSchool.ErrorReporting.pdb" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

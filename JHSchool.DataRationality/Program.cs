@@ -24,6 +24,9 @@ namespace JHSchool.DataRationality
                 DataRationalityManager.Checks.Add(new StudentImportNewUpdateRecordMixRAT());
                 DataRationalityManager.Checks.Add(new StudentUpdateRecordADNumberRAT());
 
+                // 學生沒有新增異動、轉入異動
+                DataRationalityManager.Checks.Add(new StudentNoUpdateCode1or3RAT());
+
                 //空學期成績檢查
                 DataRationalityManager.Checks.Add(new EmptySemesterScoreRAT());
 
