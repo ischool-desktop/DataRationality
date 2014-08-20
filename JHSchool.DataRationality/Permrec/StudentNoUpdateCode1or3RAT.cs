@@ -12,21 +12,21 @@ namespace JHSchool.DataRationality
     /// <summary>
     /// 查詢沒有新生異動與轉入異動的學生
     /// </summary>
-    public class StudentNoUpdateCode1or3RAT : ICorrectableDataRationality
+    public class StudentNoUpdateCode1or3RAT : IDataRationality
     {
         List<StudentNoRecord1or3RATRecord> DisplayRecords = new List<StudentNoRecord1or3RATRecord>();
         List<StudentRecord> StudentRecordList = new List<StudentRecord>();
         List<string> StudentIDList = new List<string>();
         
-        public void ExecuteAutoCorrect(IEnumerable<string> EntityIDs)
-        {
+        //public void ExecuteAutoCorrect(IEnumerable<string> EntityIDs)
+        //{
             
-        }
+        //}
 
-        public void ExecuteAutoCorrect()
-        {
-            FISCA.Presentation.Controls.MsgBox.Show("沒有自動更新功能!");
-        }
+        //public void ExecuteAutoCorrect()
+        //{
+        //    FISCA.Presentation.Controls.MsgBox.Show("沒有自動更新功能!");
+        //}
 
         public void AddToTemp(IEnumerable<string> EntityIDs)
         {
