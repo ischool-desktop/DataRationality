@@ -39,6 +39,9 @@ namespace JHSchool.DataRationality
                 //非明細資料檢查(高雄市適用)
                 DataRationalityManager.Checks.Add(new DetailedInformationOnNonInspectionRAT());
 
+                // 學生單一學年度學期課程科目名稱重複檢查
+                DataRationalityManager.Checks.Add(new CourseSubjectNameDbRAT());
+
                 //重覆執行自動修正Log記錄檢查(高雄市適用)
                 //DataRationalityManager.Checks.Add(new RepeatTheLogDataScreeningRAT());
 

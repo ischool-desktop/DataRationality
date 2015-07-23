@@ -140,6 +140,7 @@
     <Compile Include="Behavior\DemeritDetailClearedButSummaryNotClearedRAT.cs" />
     <Compile Include="Behavior\DetailedInformationOnNonInspectionRAT.cs" />
     <Compile Include="Behavior\RepeatTheLogDataScreeningRAT.cs" />
+    <Compile Include="Evaluation\CourseSubjectNameDbRAT.cs" />
     <Compile Include="Evaluation\EmptySCETakeScoreRAT.cs" />
     <Compile Include="Evaluation\EmptySemesterScoreRAT.cs" />
     <Compile Include="Association\TestScoreRAT.cs" />
