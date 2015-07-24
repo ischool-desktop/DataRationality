@@ -14,6 +14,9 @@ namespace SHSchool.DataRationality
                 //DataRationalityManager.Checks.Add(new EmptySemesterScoreRAT());
 
                 DataRationalityManager.Checks.Add(new EmptySemesterEntryRAT());
+
+                // 學生修習課程科目名稱重覆檢查
+                DataRationalityManager.Checks.Add(new CourseSubjectNameDbRAT());
             }
             catch (Exception e)
             {
