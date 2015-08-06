@@ -17,6 +17,10 @@ namespace SHSchool.DataRationality
 
                 // 學生修習課程科目名稱重覆檢查
                 DataRationalityManager.Checks.Add(new CourseSubjectNameDbRAT());
+
+                // 學生學期科目成績：科目名稱重覆檢查
+                DataRationalityManager.Checks.Add(new SubjectNameDbRAT());
+
             }
             catch (Exception e)
             {

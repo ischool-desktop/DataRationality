@@ -104,6 +104,7 @@
     <Compile Include="EmptySemesterScoreRAT.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="EmptySemesterEntryRAT.cs" />
+    <Compile Include="SubjectNameDbRAT.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Library\DataRationality.dll" />
