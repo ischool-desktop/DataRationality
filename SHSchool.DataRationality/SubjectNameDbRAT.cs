@@ -66,7 +66,7 @@ namespace SHSchool.DataRationality
 
                 strBuilder.AppendLine("檢查範圍：學生狀態(一般、延俢)，各學年度學期學期科目成績。");
                 strBuilder.AppendLine("檢查項目：學生學期科目成績:科目名稱+科目級別有重覆");
-                strBuilder.AppendLine("檢查意義：當學生學期科目成績:科目名稱+科目級別有重覆時，在計算學期分項成績只會取其中一個科目成績計算，將造成學期分項成績有誤，此檢查功能可找出有疑問學生科目，並可匯出資料或是將課程加入課程待處理。");
+                strBuilder.AppendLine("檢查意義：當學生學期科目成績:科目名稱+科目級別有重覆時，在計算學期分項成績只會取其中一個科目成績計算，將造成學期分項成績有誤，此檢查功能可找出有疑問學生科目，並可匯出資料或是將學生加入學生待處理。");
 
                 return strBuilder.ToString();
             }            
